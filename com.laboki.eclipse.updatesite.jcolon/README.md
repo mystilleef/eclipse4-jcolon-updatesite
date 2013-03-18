@@ -11,9 +11,9 @@ Jcolon automatically inserts semicolons in java source code in Eclipse 4.
 
 * You need __Eclipse 4.2(Juno)__ or later to use this plugin.
 
-// ### Eclipse Market Place
+<!-- ### Eclipse Market Place
 
-// * __[Eclipse Market Place](http://marketplace.eclipse.org/content/smart-save#.UT-KI2ZDtSw)__
+// * __[Eclipse Market Place](http://marketplace.eclipse.org/content/smart-save#.UT-KI2ZDtSw)__ -->
 
 ### Update Site
 
