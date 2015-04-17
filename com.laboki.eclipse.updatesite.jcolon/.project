@@ -3,15 +3,28 @@
 	<name>com.laboki.eclipse.updatesite.jcolon</name>
 	<comment></comment>
 	<projects>
+		<project>com.laboki.eclipse.feature.jcolon</project>
+		<project>com.laboki.eclipse.plugin.jcolon</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
+			<name>org.eclipse.mylyn.wikitext.ui.wikiTextValidationBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>org.eclipse.pde.UpdateSiteBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.wst.validation.validationbuilder</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.pde.UpdateSiteNature</nature>
+		<nature>org.eclipse.mylyn.wikitext.ui.wikiTextNature</nature>
 	</natures>
 </projectDescription>
